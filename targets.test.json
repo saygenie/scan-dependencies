@@ -1,0 +1,14 @@
+[
+    {
+        "language": "c#",
+        "projects": [
+            "shadowsocks/shadowsocks-windows"
+        ]
+    },
+    {
+        "language": "go",
+        "projects": [
+            "golang/go"
+        ]
+    }
+]
