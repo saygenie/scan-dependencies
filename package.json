@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-	"run": "node index.js",
+    "init": "chmod +x init.sh && ./init.sh",
+    "start": "npm run init && node index.js && npm run scan",
+    "scan": "node scan.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
