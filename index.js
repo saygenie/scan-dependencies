@@ -1,8 +1,5 @@
-const fs = require("fs");
 const { execSync } = require("child_process");
-
-const data = fs.readFileSync("targets.json").toString();
-const targets = JSON.parse(data);
+const targets = require("./targets.json");
 
 // const execHandler = (error, stdout, stderr) => {
 //   if (error) {
